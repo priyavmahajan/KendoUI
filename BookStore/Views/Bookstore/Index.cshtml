@@ -1,0 +1,57 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        var ApiUrl = "http://localhost:57641/";
+        dataSource = new kendo.data.DataSource({
+            transport: {
+                read: {
+                    url: ApiUrl + "api/BookStore/Get",
+                    dataType: "json",
+                }
+            },
+        });
+
+        $("#BookStoreGrid").kendoGrid({
+            dataSource: dataSource,
+            groupable: true,
+            filterable: true,
+            sortable: true,
+            pageable: {
+                refresh: true,
+                pageSizes: true,
+                buttonCount: 5
+            },
+            columns: [{
+                field: "ID",
+                title: "Book ID",
+                width: 100,
+                filterable: false,
+            },
+            {
+                field: "BookName",
+                title: "Book Name"
+            },
+            {
+                field: "Description",
+                title: "Description"
+            },
+            {
+                field: "ISBN",
+                title: "ISBN"
+            },]
+        }).data("kendoGrid");
+    });
+</script>
+@using (Html.BeginForm())
+{
+
+    <div id="BookStoreGrid">
+
+    </div>
+
+
+}

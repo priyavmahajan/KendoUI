@@ -1,0 +1,15 @@
+C:\Users\priyankaj\source\repos\BookStore\DAL\bin\Debug\DAL.dll.config
+C:\Users\priyankaj\source\repos\BookStore\DAL\bin\Debug\DAL.dll
+C:\Users\priyankaj\source\repos\BookStore\DAL\bin\Debug\DAL.pdb
+C:\Users\priyankaj\source\repos\BookStore\DAL\bin\Debug\EntityFramework.dll
+C:\Users\priyankaj\source\repos\BookStore\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\priyankaj\source\repos\BookStore\DAL\bin\Debug\ViewModel.dll
+C:\Users\priyankaj\source\repos\BookStore\DAL\bin\Debug\ViewModel.pdb
+C:\Users\priyankaj\source\repos\BookStore\DAL\bin\Debug\ViewModel.dll.config
+C:\Users\priyankaj\source\repos\BookStore\DAL\bin\Debug\EntityFramework.xml
+C:\Users\priyankaj\source\repos\BookStore\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\priyankaj\source\repos\BookStore\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+C:\Users\priyankaj\source\repos\BookStore\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\priyankaj\source\repos\BookStore\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\priyankaj\source\repos\BookStore\DAL\obj\Debug\DAL.dll
+C:\Users\priyankaj\source\repos\BookStore\DAL\obj\Debug\DAL.pdb
